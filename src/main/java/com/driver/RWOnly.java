@@ -1,6 +1,6 @@
 package com.driver;
 
-class RWOnly {
+public class RWOnly {
     private int name;
     void setter(int input){
         name =input;
