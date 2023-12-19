@@ -10,11 +10,11 @@ public class RWOnly {
         return name;
     }
 
-    void setName(int input){
+    public void setName(int input){
         setter(input);
     }
 
-    int getName(){
+    public int getName(){
         return getter();
     }
 }
